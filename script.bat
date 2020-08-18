@@ -1,1 +1,1 @@
-"C:\xampp\php\php.exe" -f "C:\xampp\htdocs\result\notify.php"
+"C:\xampp\php\php.exe" -f "C:\xampp\htdocs\performance\notify.php"
