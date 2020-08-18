@@ -1,12 +1,12 @@
 <?php
-
+date_default_timezone_set('America/Los_Angeles');
 $currentDate = date("Ymd");
 $fileName    = "Test_". $currentDate .".csv";
 
 if(file_exists($fileName))
 {
     $server     = "RDP-1";
-    $title      = "Performance Test Result". $currentDate;
+    $title      = "Performance Test Result - ". $currentDate;
     $url        = "pms-performance.local";
     $requestUrl = "https://hook.integromat.com/su7kmhge5z71k2b7fu5bbrdrye4zm4df";
 
