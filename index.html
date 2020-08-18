@@ -1,4 +1,3 @@
-<?php include("process.php"); ?>
 <!doctype html>
 <html lang="en">
 
@@ -6,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
     <title>PMS - Performance Result</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/floating-labels/">
@@ -37,10 +38,84 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>PMS Performance Result</h1>
-        <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
-    </div>
+    <form action="#" 
+          class="form-signin"
+          method="POST">
+
+        <div class="form-label-group">
+            <input type="text" 
+                   id="inputDate" 
+                   class="form-control" 
+                   placeholder="YYYYMMDD" 
+                   required autofocus>
+            <label for="inputDate">YYYYMMDD</label>
+        </div>
+
+        <div class="form-label-group">
+            <input type="password" 
+                   id="inputPassword" 
+                   class="form-control" 
+                   placeholder="Password" 
+                   required>
+            <label for="inputPassword">Password</label>
+        </div>
+
+
+        <button id="loginbutton"
+                class="btn btn-lg btn-primary btn-block" 
+                type="submit">Submit</button>
+        <p class="mt-5 mb-3 text-muted text-center">PMS &copy; 2020</p>
+    </form>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script type="text/javascript" src="https://rawcdn.githack.com/chrisveness/crypto/7067ee62f18c76dd4a9d372a00e647205460b62b/sha1.js"></script>
+
+	<script type="text/javascript">
+	"use strict";
+
+	function loadPage(pwd) {
+
+        var dateField = document.getElementById("inputDate").value;
+        var indexPath = "/index.html";
+
+
+		var hash= pwd;
+		hash= Sha1.hash(pwd);
+        var uhash = hash.toUpperCase();
+		var url= "https://george-labbmiljo.github.io/pms/" + uhash + "/" + dateField + indexPath;
+
+		$.ajax({
+			url : url,
+			dataType : "html",
+			success : function(data) {
+
+				window.location= url;
+
+			},
+			error : function(xhr, ajaxOptions, thrownError) {
+				parent.location.hash= uhash;
+
+				//$("#wrongPassword").show();
+				$("#inputPassword").attr("placeholder","Wrong Password");
+				$("#inputPassword").val("");
+			}
+		});
+	}
+
+
+	$("#loginbutton").on("click", function() {
+		loadPage($("#inputPassword").val());
+	});
+
+	$("#inputPassword").keypress(function(e) {
+		if (e.which == 13) {
+			loadPage($("#inputPassword").val());
+		}
+	});
+
+	$("#inputPassword").focus();
+
+	</script>
 </body>
 
 </html>
