@@ -8,7 +8,7 @@ if(file_exists($fileName))
     $server     = "RDP-1";
     $title      = "Performance Test Result - ". $currentDate;
     $url        = "pms-performance.local";
-    $requestUrl = "https://hook.integromat.com/su7kmhge5z71k2b7fu5bbrdrye4zm4df";
+    $requestUrl = "https://hook.integromat.com/hwtsd7lac21ft7bxu4r51apyi1xy282k";
 
     $formData = array(
         'server' => $server,
