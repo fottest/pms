@@ -79,24 +79,19 @@
         var indexPath = "/index.html";
 
 
-		var hash= pwd;
-		hash= Sha1.hash(pwd);
-		var url= "https://george-labbmiljo.github.io/pms/" + hash + "/" + dateField + indexPath;
+		var hash = pwd;
+		hash = Sha1.hash(pwd);
+        var url = "https://george-labbmiljo.github.io/pms/";
+		var accessUrl= "https://george-labbmiljo.github.io/pms/" + hash + "/" + dateField + indexPath;
 
 		$.ajax({
-			url : url,
+			url : accessUrl,
 			dataType : "html",
 			success : function(data) {
-
-				window.location= url;
-
+				window.location = accessUrl;
 			},
 			error : function(xhr, ajaxOptions, thrownError) {
-				parent.location.hash= hash;
-
-				//$("#wrongPassword").show();
-				$("#inputPassword").attr("placeholder","Wrong Password");
-				$("#inputPassword").val("");
+				window.location = url;
 			}
 		});
 	}
