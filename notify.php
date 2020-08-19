@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('America/Los_Angeles');
-$currentDate = date("Ymd");
-$fileName    = "Test_". $currentDate .".csv";
+$currentDate = date("YmdH");
+$fileName    = "data/Test_". $currentDate .".csv";
 
 if(file_exists($fileName))
 {
