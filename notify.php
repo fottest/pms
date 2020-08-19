@@ -5,15 +5,19 @@ $fileName    = "Test_". $currentDate .".csv";
 
 if(file_exists($fileName))
 {
+    $date       = $currentDate;
     $server     = "RDP-1";
-    $title      = "Performance Test Result - ". $currentDate;
-    $url        = "pms-performance.local";
-    $requestUrl = "https://hook.integromat.com/hwtsd7lac21ft7bxu4r51apyi1xy282k";
+    $status     = "OK";
+    $type       = "Regular";
+    $requestUrl = "https://hook.integromat.com/54u8xjckpokitid88ss5xm6qczu71506";
+    $url        = "https://george-labbmiljo.github.io/pms/88f8adf2530eba177361d604a43acf6d32bb2d10/".$currentDate."/index.html";
 
     $formData = array(
+        'date'   => $date,
+        'url'    => $url, 
+        'status' => $status,
         'server' => $server,
-        'title'  => $title,
-        'url'    => $url 
+        'type'  => $type
     );
 
     $str = http_build_query($formData);
