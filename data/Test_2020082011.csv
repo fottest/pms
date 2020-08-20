@@ -1,0 +1,194 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1597946404248,1288,JSR223 Sampler,200,OK,setUp Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1597946405778,1447,/board,200,OK,Thread Group 1-1,text,true,,285451,8360,1,1,https://pmstest.fairlyoddtreasures.com/board,1075,0,1014
+1597946405778,1079,/board-0,200,OK,Thread Group 1-1,text,true,,4703,378,1,1,https://pmstest.fairlyoddtreasures.com/board,1075,0,1014
+1597946406952,273,/board-1,200,OK,Thread Group 1-1,text,true,,113737,888,1,1,https://pmstest.fairlyoddtreasures.com/public/css/bootstrap.min.css,209,0,137
+1597946406952,179,/board-2,200,OK,Thread Group 1-1,text,true,,1324,888,1,1,https://pmstest.fairlyoddtreasures.com/public/css/metisMenu.min.css,179,0,145
+1597946406952,179,/board-3,200,OK,Thread Group 1-1,text,true,,6178,885,1,1,https://pmstest.fairlyoddtreasures.com/public/css/sb-admin-2.css,179,0,144
+1597946406952,225,/board-4,200,OK,Thread Group 1-1,text,true,,22220,891,1,1,https://pmstest.fairlyoddtreasures.com/public/css/font-awesome.min.css,223,0,154
+1597946406952,177,/board-5,200,OK,Thread Group 1-1,bin,true,,13270,892,1,1,https://pmstest.fairlyoddtreasures.com/public/images/FOS-Logo-2-317.gif,177,0,138
+1597946406952,129,/board-6,200,OK,Thread Group 1-1,text,true,,84607,883,1,1,https://pmstest.fairlyoddtreasures.com/public/js/jquery.min.js,86,0,0
+1597946407084,48,/board-7,200,OK,Thread Group 1-1,text,true,,35854,886,1,1,https://pmstest.fairlyoddtreasures.com/public/js/bootstrap.min.js,40,0,0
+1597946407130,36,/board-8,200,OK,Thread Group 1-1,text,true,,2132,886,1,1,https://pmstest.fairlyoddtreasures.com/public/js/metisMenu.min.js,36,0,0
+1597946407132,37,/board-9,200,OK,Thread Group 1-1,text,true,,1426,883,1,1,https://pmstest.fairlyoddtreasures.com/public/js/sb-admin-2.js,37,0,0
+1597946407516,5957,/board/login,200,OK,Thread Group 1-1,text,true,,1453836,39425,1,1,https://pmstest.fairlyoddtreasures.com/board/newboard,5058,0,0
+1597946407516,5058,/board/login-0,302,Moved Temporarily,Thread Group 1-1,text,true,,3502,1032,1,1,https://pmstest.fairlyoddtreasures.com/board/login,5058,0,0
+1597946412577,199,/board/login-1,200,OK,Thread Group 1-1,text,true,,388627,1227,1,1,https://pmstest.fairlyoddtreasures.com/board/newboard,103,0,0
+1597946412842,136,/board/login-2,200,OK,Thread Group 1-1,text,true,,97908,1203,1,1,https://pmstest.fairlyoddtreasures.com/public/js/socket.io-1.4.4-1.js,94,0,0
+1597946412842,94,/board/login-3,200,OK,Thread Group 1-1,text,true,,29724,1203,1,1,https://pmstest.fairlyoddtreasures.com/pms_content/css/foundation.css,70,0,0
+1597946412842,68,/board/login-4,200,OK,Thread Group 1-1,text,true,,22220,1209,1,1,https://pmstest.fairlyoddtreasures.com/pms_content/css/font-awesome.min.css,67,0,0
+1597946412842,68,/board/login-5,200,OK,Thread Group 1-1,text,true,,14175,1197,1,1,https://pmstest.fairlyoddtreasures.com/pms_content/css/main.css,68,0,0
+1597946412842,38,/board/login-6,200,OK,Thread Group 1-1,text,true,,1919,1198,1,1,https://pmstest.fairlyoddtreasures.com/pms_content/css/media.css,38,0,0
+1597946412843,58,/board/login-7,200,OK,Thread Group 1-1,text,true,,2001,1211,1,1,https://pmstest.fairlyoddtreasures.com/pms_content/css/jquery.jscrollpane.css,58,0,0
+1597946412884,37,/board/login-8,200,OK,Thread Group 1-1,text,true,,8413,1207,1,1,https://pmstest.fairlyoddtreasures.com/pms_content/css/magnific-popup.css,37,0,0
+1597946412906,79,/board/login-9,200,OK,Thread Group 1-1,text,true,,32221,1197,1,1,https://pmstest.fairlyoddtreasures.com/public/css/jquery-ui.css,75,0,0
+1597946412936,36,/board/login-10,200,OK,Thread Group 1-1,text,true,,2383,1193,1,1,https://pmstest.fairlyoddtreasures.com/public/css/smoke.css,36,0,0
+1597946412936,37,/board/login-11,200,OK,Thread Group 1-1,bin,true,,1000,1191,1,1,https://pmstest.fairlyoddtreasures.com/images/favicon.ico,37,0,0
+1597946412941,38,/board/login-12,200,OK,Thread Group 1-1,text,true,,11517,1207,1,1,https://pmstest.fairlyoddtreasures.com/pms_content/js/vendor/modernizr.js,38,0,0
+1597946412974,38,/board/login-13,200,OK,Thread Group 1-1,bin,true,,14032,1199,1,1,https://pmstest.fairlyoddtreasures.com/public/images/gif-load.gif,38,0,0
+1597946412976,41,/board/login-14,200,OK,Thread Group 1-1,bin,true,,13270,1198,1,1,https://pmstest.fairlyoddtreasures.com/images/FOS-Logo-2-317.gif,41,0,0
+1597946412979,34,/board/login-15,200,OK,Thread Group 1-1,bin,true,,1438,1236,1,1,https://pmstest.fairlyoddtreasures.com/public/uploads/user_pic/thumbs/1437050096Boomstick-sample-2.png,34,0,0
+1597946412979,34,/board/login-16,200,OK,Thread Group 1-1,bin,true,,673,1202,1,1,https://pmstest.fairlyoddtreasures.com/public/images/right-shift.png,34,0,0
+1597946412980,34,/board/login-17,200,OK,Thread Group 1-1,bin,true,,1273,1198,1,1,https://pmstest.fairlyoddtreasures.com/public/images/userPic.png,34,0,0
+1597946413016,457,/board/login-18,200,OK,Thread Group 1-1,text,true,,35664,496,1,1,https://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css,248,0,38
+1597946413013,71,/board/login-19,200,OK,Thread Group 1-1,text,true,,96038,1215,1,1,https://pmstest.fairlyoddtreasures.com/pms_content/js/vendor/jquery-1.11.1.min.js,40,0,0
+1597946413014,153,/board/login-20,200,OK,Thread Group 1-1,text,true,,239825,1211,1,1,https://pmstest.fairlyoddtreasures.com/pms_content/js/vendor/jquery-ui.min.js,46,0,0
+1597946413014,44,/board/login-21,200,OK,Thread Group 1-1,text,true,,15639,1220,1,1,https://pmstest.fairlyoddtreasures.com/pms_content/js/vendor/jquery.jscrollpane.min.js,44,0,0
+1597946413018,43,/board/login-22,200,OK,Thread Group 1-1,text,true,,21393,1223,1,1,https://pmstest.fairlyoddtreasures.com/pms_content/js/vendor/jquery.magnific-popup.min.js,41,0,0
+1597946413026,40,/board/login-23,200,OK,Thread Group 1-1,text,true,,21756,1205,1,1,https://pmstest.fairlyoddtreasures.com/pms_content/js/foundation.min.js,38,0,0
+1597946413060,34,/board/login-24,200,OK,Thread Group 1-1,text,true,,3430,1195,1,1,https://pmstest.fairlyoddtreasures.com/pms_content/js/main.js,34,0,0
+1597946413061,95,/board/login-25,200,OK,Thread Group 1-1,text,true,,163445,1192,1,1,https://pmstest.fairlyoddtreasures.com/public/js/script.js,40,0,0
+1597946413067,42,/board/login-26,200,OK,Thread Group 1-1,text,true,,27909,1197,1,1,https://pmstest.fairlyoddtreasures.com/public/js/jquery.form.js,38,0,0
+1597946413085,37,/board/login-27,200,OK,Thread Group 1-1,text,true,,11698,1191,1,1,https://pmstest.fairlyoddtreasures.com/public/js/smoke.js,37,0,0
+1597946413095,36,/board/login-28,200,OK,Thread Group 1-1,text,true,,4003,1208,1,1,https://pmstest.fairlyoddtreasures.com/public/js/bootstrapNotifications.js,36,0,0
+1597946413110,36,/board/login-29,200,OK,Thread Group 1-1,text,true,,6548,1218,1,1,https://pmstest.fairlyoddtreasures.com/public/css/drag_css/zTreeStyle/zTreeStyle.css,36,0,0
+1597946413124,48,/board/login-30,200,OK,Thread Group 1-1,text,true,,57671,1215,1,1,https://pmstest.fairlyoddtreasures.com/public/js/drag_js/jquery.ztree.core-3.5.js,38,0,0
+1597946413132,39,/board/login-31,200,OK,Thread Group 1-1,text,true,,22361,1218,1,1,https://pmstest.fairlyoddtreasures.com/public/js/drag_js/jquery.ztree.excheck-3.5.js,37,0,0
+1597946413157,50,/board/login-32,200,OK,Thread Group 1-1,text,true,,44520,1217,1,1,https://pmstest.fairlyoddtreasures.com/public/js/drag_js/jquery.ztree.exedit-3.5.js,42,0,0
+1597946413161,49,/board/login-33,200,OK,Thread Group 1-1,text,true,,35640,496,1,1,https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css,44,0,35
+1597946413515,165,/socket.io/?EIO=3&transport=polling&t=NFY5q0-,200,OK,Thread Group 1-1,text,true,,311,974,1,1,https://pmstest.fairlyoddtreasures.com:8081/socket.io/?t=NFY5q0-&EIO=3&transport=polling,165,0,130
+1597946413683,34,/socket.io/?EIO=3&transport=polling&t=NFY5q1q&sid=XCCyDv5IazUeoY-yAAAE,200,OK,Thread Group 1-1,text,true,,213,1024,1,1,https://pmstest.fairlyoddtreasures.com:8081/socket.io/?t=NFY5q1q&EIO=3&transport=polling&sid=6jUncd54in3qADytAARr,34,0,0
+1597946413718,171,/board/ajax_show_all_employee,200,OK,Thread Group 1-1,text,true,,500012,1071,1,1,https://pmstest.fairlyoddtreasures.com/board/ajax_show_all_employee,56,0,0
+1597946413897,661,/board/ajax?action=getempdata,200,OK,Thread Group 1-1,text,true,,72716,1030,1,1,https://pmstest.fairlyoddtreasures.com/board/ajax?action=getempdata,650,0,0
+1597946414563,137,/tasks/updateEod,200,OK,Thread Group 1-1,text,true,,431,974,1,1,https://pmstest.fairlyoddtreasures.com/tasks/updateEod,137,0,0
+1597946414702,40,/board/set_session_ini,200,OK,Thread Group 1-1,text,true,,1240,1661,1,1,https://pmstest.fairlyoddtreasures.com/board/set_session_ini,40,0,0
+1597946405665,8612,Test Login Board,200,"Number of samples in transaction : 8, number of failing samples : 0",Thread Group 1-1,,true,,2314210,54519,1,1,null,7215,465,1144
+1597946414744,38,https://pms.local/tasks/getallcompletedtask,200,OK,Thread Group 1-1,text,true,,431,1064,1,1,https://pmstest.fairlyoddtreasures.com/tasks/getallcompletedtask,38,0,0
+1597946414783,40,https://pms.local/board/set_session_ini,200,OK,Thread Group 1-1,text,true,,1240,1657,1,1,https://pmstest.fairlyoddtreasures.com/board/set_session_ini,40,0,0
+1597946414743,78,Test Archive,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1671,2721,1,1,null,78,3,0
+1597946414825,172,/tasks/get_list_tasks?projectId=13,200,OK,Thread Group 1-1,text,true,,34681,1078,1,1,https://pmstest.fairlyoddtreasures.com/tasks/get_list_tasks?projectId=13,166,0,0
+1597946414999,41,/board/tasksList,200,OK,Thread Group 1-1,text,true,,1826,1129,1,1,https://pmstest.fairlyoddtreasures.com/board/tasksList,41,0,0
+1597946415041,39,/board/get_auto_gen_id,200,OK,Thread Group 1-1,text,true,,436,1142,1,1,https://pmstest.fairlyoddtreasures.com/board/get_auto_gen_id,39,0,0
+1597946415081,54,/board/checkTaskName,200,OK,Thread Group 1-1,text,true,,431,1136,1,1,https://pmstest.fairlyoddtreasures.com/board/checkTaskName,54,0,0
+1597946415137,3404,/board/addNewTask,200,OK,Thread Group 1-1,text,true,,431,1371,1,1,https://pmstest.fairlyoddtreasures.com/board/addNewTask,3404,0,0
+1597946418543,41,/board/tasksList,200,OK,Thread Group 1-1,text,true,,1874,1129,1,1,https://pmstest.fairlyoddtreasures.com/board/tasksList,41,0,0
+1597946418586,648,/board/ajax?action=getempdata,200,OK,Thread Group 1-1,text,true,,73159,1073,1,1,https://pmstest.fairlyoddtreasures.com/board/ajax?action=getempdata,634,0,0
+1597946419238,165,/socket.io/?EIO=3&transport=polling&t=NFToGt6,200,OK,Thread Group 1-1,text,true,,311,1042,1,1,https://pmstest.fairlyoddtreasures.com:8081/socket.io/?t=NFToGt6&EIO=3&transport=polling,165,0,131
+1597946419406,35,/socket.io/?EIO=3&transport=polling&t=NFToGuO&sid=XjMCnlEw2rW_JnOBAAAP,200,OK,Thread Group 1-1,text,true,,213,1067,1,1,https://pmstest.fairlyoddtreasures.com:8081/socket.io/?t=NFToGuO&EIO=3&transport=polling&sid=wXluW2kB154siSP-AARs,35,0,0
+1597946414824,4599,Test Create Task,200,"Number of samples in transaction : 9, number of failing samples : 0",Thread Group 1-1,,true,,113362,10167,1,1,null,4579,18,131
+1597946419442,39,/board/getperticulartask,200,OK,Thread Group 1-1,text,true,,433,1129,1,1,https://pmstest.fairlyoddtreasures.com/board/getperticulartask,39,0,0
+1597946419482,77,/board/show_activities,200,OK,Thread Group 1-1,text,true,,5043,2286,1,1,https://pmstest.fairlyoddtreasures.com/board/show_activities,41,0,0
+1597946419482,41,/board/show_activities-0,200,OK,Thread Group 1-1,text,true,,4870,1114,1,1,https://pmstest.fairlyoddtreasures.com/board/show_activities,41,0,0
+1597946419525,34,/board/show_activities-1,304,Not Modified,Thread Group 1-1,,true,,173,1172,1,1,https://pmstest.fairlyoddtreasures.com/public/images/userPic.png,0,0,0
+1597946419562,38,/tasks/check_is_in_parent_id,200,OK,Thread Group 1-1,text,true,,431,1130,1,1,https://pmstest.fairlyoddtreasures.com/tasks/check_is_in_parent_id,38,0,0
+1597946419601,46,/tasks/tasksInfoById,200,OK,Thread Group 1-1,text,true,,7818,1122,1,1,https://pmstest.fairlyoddtreasures.com/tasks/tasksInfoById,46,0,0
+1597946419651,95,/tasks/save_board_EditTaskInfo,500,Internal Server Error,Thread Group 1-1,text,false,,1801,1459,1,1,https://pmstest.fairlyoddtreasures.com/tasks/save_board_EditTaskInfo,95,0,0
+1597946419749,671,/board/ajax?action=getempdata,200,OK,Thread Group 1-1,text,true,,73159,1073,1,1,https://pmstest.fairlyoddtreasures.com/board/ajax?action=getempdata,653,0,0
+1597946420423,34,/socket.io/?EIO=3&transport=polling&t=NFTpzUb,200,OK,Thread Group 1-1,text,true,,311,1042,1,1,https://pmstest.fairlyoddtreasures.com:8081/socket.io/?t=NFTpzUb&EIO=3&transport=polling,34,0,0
+1597946420459,34,/socket.io/?EIO=3&transport=polling&t=NFTpzUq&sid=D_1NmGdB4-9wQkdEAAAQ,200,OK,Thread Group 1-1,text,true,,213,1067,1,1,https://pmstest.fairlyoddtreasures.com:8081/socket.io/?t=NFTpzUq&EIO=3&transport=polling&sid=uenxTQOkwdgnEKeaAARt,34,0,0
+1597946419442,1034,Test Edit Task,,"Number of samples in transaction : 8, number of failing samples : 1",Thread Group 1-1,,false,,89209,10308,1,1,null,980,17,0
+1597946420494,165,https://pms.local/board/logout,200,OK,Thread Group 1-1,text,true,,6869,10228,1,1,https://pmstest.fairlyoddtreasures.com/board,38,0,0
+1597946420494,38,https://pms.local/board/logout-0,302,Moved Temporarily,Thread Group 1-1,text,true,,601,1131,1,1,https://pmstest.fairlyoddtreasures.com/board/logout,38,0,0
+1597946420532,39,https://pms.local/board/logout-1,200,OK,Thread Group 1-1,text,true,,4703,378,1,1,https://pmstest.fairlyoddtreasures.com/board,39,0,0
+1597946420576,48,https://pms.local/board/logout-2,304,Not Modified,Thread Group 1-1,,true,,175,971,1,1,https://pmstest.fairlyoddtreasures.com/public/css/bootstrap.min.css,0,0,0
+1597946420576,48,https://pms.local/board/logout-3,304,Not Modified,Thread Group 1-1,,true,,173,969,1,1,https://pmstest.fairlyoddtreasures.com/public/css/metisMenu.min.css,0,0,0
+1597946420576,48,https://pms.local/board/logout-4,304,Not Modified,Thread Group 1-1,,true,,174,967,1,1,https://pmstest.fairlyoddtreasures.com/public/css/sb-admin-2.css,0,0,0
+1597946420576,48,https://pms.local/board/logout-5,304,Not Modified,Thread Group 1-1,,true,,174,973,1,1,https://pmstest.fairlyoddtreasures.com/public/css/font-awesome.min.css,0,0,0
+1597946420576,34,https://pms.local/board/logout-6,304,Not Modified,Thread Group 1-1,,true,,174,974,1,1,https://pmstest.fairlyoddtreasures.com/public/images/FOS-Logo-2-317.gif,0,0,0
+1597946420576,49,https://pms.local/board/logout-7,304,Not Modified,Thread Group 1-1,,true,,175,966,1,1,https://pmstest.fairlyoddtreasures.com/public/js/jquery.min.js,0,0,0
+1597946420611,34,https://pms.local/board/logout-8,304,Not Modified,Thread Group 1-1,,true,,174,968,1,1,https://pmstest.fairlyoddtreasures.com/public/js/bootstrap.min.js,0,0,0
+1597946420625,34,https://pms.local/board/logout-9,304,Not Modified,Thread Group 1-1,,true,,173,967,1,1,https://pmstest.fairlyoddtreasures.com/public/js/metisMenu.min.js,0,0,0
+1597946420625,34,https://pms.local/board/logout-10,304,Not Modified,Thread Group 1-1,,true,,173,964,1,1,https://pmstest.fairlyoddtreasures.com/public/js/sb-admin-2.js,0,0,0
+1597946420493,165,Test Logout Board,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,6869,10228,1,1,null,38,2,0
+1597946420661,123,/employee,200,"Embedded resource download error:https://pmstest.fairlyoddtreasures.com/mobile/ico/favicon.png code:404 message:Not Found, ",Thread Group 1-1,text,false,,255366,8295,1,1,https://pmstest.fairlyoddtreasures.com/employee,45,0,0
+1597946420661,45,/employee-0,200,OK,Thread Group 1-1,text,true,,11491,868,1,1,https://pmstest.fairlyoddtreasures.com/employee,45,0,0
+1597946420714,65,/employee-1,200,OK,Thread Group 1-1,text,true,,133745,884,1,1,https://pmstest.fairlyoddtreasures.com/mobile/css/bootstrap.css,37,0,0
+1597946420714,42,/employee-2,200,OK,Thread Group 1-1,text,true,,23444,895,1,1,https://pmstest.fairlyoddtreasures.com/mobile/css/bootstrap-responsive.css,40,0,0
+1597946420714,35,/employee-3,304,Not Modified,Thread Group 1-1,,true,,173,961,1,1,https://pmstest.fairlyoddtreasures.com/public/css/smoke.css,0,0,0
+1597946420714,40,/employee-4,404,Not Found,Thread Group 1-1,text,false,,1417,882,1,1,https://pmstest.fairlyoddtreasures.com/mobile/ico/favicon.png,39,0,0
+1597946420713,61,/employee-5,200,OK,Thread Group 1-1,text,true,,84572,879,1,1,https://pmstest.fairlyoddtreasures.com/mobile/js/jquery.js,45,0,0
+1597946420714,35,/employee-6,304,Not Modified,Thread Group 1-1,,true,,174,960,1,1,https://pmstest.fairlyoddtreasures.com/public/js/smoke.js,0,0,0
+1597946420750,34,/employee-7,304,Not Modified,Thread Group 1-1,,true,,175,985,1,1,https://pmstest.fairlyoddtreasures.com/pms_content/js/vendor/jquery-1.11.1.min.js,0,0,0
+1597946420751,33,/employee-8,304,Not Modified,Thread Group 1-1,,true,,175,981,1,1,https://pmstest.fairlyoddtreasures.com/pms_content/js/vendor/jquery-ui.min.js,0,0,0
+1597946420966,39,/employee/checkMyLogin,200,OK,Thread Group 1-1,text,true,,431,857,1,1,https://pmstest.fairlyoddtreasures.com/employee/checkMyLogin,39,0,0
+1597946423660,388,/employee/login,200,OK,Thread Group 1-1,text,true,,261380,20224,1,1,https://pmstest.fairlyoddtreasures.com/employee/home,40,0,0
+1597946423660,40,/employee/login-0,302,Moved Temporarily,Thread Group 1-1,text,true,,1305,998,1,1,https://pmstest.fairlyoddtreasures.com/employee/login,40,0,0
+1597946423701,75,/employee/login-1,302,Moved Temporarily,Thread Group 1-1,text,true,,1292,1194,1,1,https://pmstest.fairlyoddtreasures.com/employee/search?udata=MTQ=,75,0,0
+1597946423776,110,/employee/login-2,200,OK,Thread Group 1-1,text,true,,77670,1181,1,1,https://pmstest.fairlyoddtreasures.com/employee/home,75,0,0
+1597946423898,37,/employee/login-3,304,Not Modified,Thread Group 1-1,,true,,173,1269,1,1,https://pmstest.fairlyoddtreasures.com/public/css/smoke.css,0,0,0
+1597946423898,34,/employee/login-4,304,Not Modified,Thread Group 1-1,,true,,175,1270,1,1,https://pmstest.fairlyoddtreasures.com/mobile/js/jquery.js,0,0,0
+1597946423898,33,/employee/login-5,304,Not Modified,Thread Group 1-1,,true,,174,1268,1,1,https://pmstest.fairlyoddtreasures.com/public/js/smoke.js,0,0,0
+1597946423898,41,/employee/login-6,200,OK,Thread Group 1-1,text,true,,7940,1192,1,1,https://pmstest.fairlyoddtreasures.com/mobile/css/normalize.css,41,0,0
+1597946423898,39,/employee/login-7,200,OK,Thread Group 1-1,text,true,,15560,1187,1,1,https://pmstest.fairlyoddtreasures.com/mobile/css/main.css,39,0,0
+1597946423898,72,/employee/login-8,200,OK,Thread Group 1-1,text,true,,8130,471,1,1,"https://fonts.googleapis.com/css?family=Open+Sans:700,400,600",69,0,56
+1597946423932,40,/employee/login-9,200,OK,Thread Group 1-1,text,true,,15761,1200,1,1,https://pmstest.fairlyoddtreasures.com/mobile/js/modernizr-2.8.3.min.js,40,0,0
+1597946423933,36,/employee/login-10,200,OK,Thread Group 1-1,text,true,,8285,1192,1,1,https://pmstest.fairlyoddtreasures.com/mobile/css/flippopup.css,35,0,0
+1597946423937,33,/employee/login-11,304,Not Modified,Thread Group 1-1,,true,,173,1274,1,1,https://pmstest.fairlyoddtreasures.com/public/images/userPic.png,0,0,0
+1597946423946,39,/employee/login-12,200,OK,Thread Group 1-1,text,true,,14807,1191,1,1,https://pmstest.fairlyoddtreasures.com/public/js/ajaxupload.js,39,0,0
+1597946423953,34,/employee/login-13,304,Not Modified,Thread Group 1-1,,true,,174,1274,1,1,https://pmstest.fairlyoddtreasures.com/public/js/jquery.form.js,0,0,0
+1597946423971,35,/employee/login-14,200,OK,Thread Group 1-1,text,true,,6595,1203,1,1,https://pmstest.fairlyoddtreasures.com/public/js/home.js?v=0.0.11597946423,35,0,0
+1597946423974,74,/employee/login-15,200,OK,Thread Group 1-1,text,true,,96694,475,1,1,https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js,50,0,48
+1597946423980,39,/employee/login-16,200,OK,Thread Group 1-1,text,true,,5468,1197,1,1,https://pmstest.fairlyoddtreasures.com/mobile/js/jquery.flippopup.js,39,0,0
+1597946423981,34,/employee/login-17,200,OK,Thread Group 1-1,text,true,,1004,1188,1,1,https://pmstest.fairlyoddtreasures.com/mobile/js/plugins.js,34,0,0
+1597946420660,550,Test Login Employee,,"Number of samples in transaction : 3, number of failing samples : 1",Thread Group 1-1,,false,,517177,29376,1,1,null,124,2840,0
+1597946424051,0,/employee/save_comment,Non HTTP response code: java.lang.NumberFormatException,"Non HTTP response message: For input string: ""12045:""",Thread Group 1-1,text,false,,1785,0,1,1,https://pmstest.fairlyoddtreasures.com/employee/save_comment,0,0,0
+1597946424054,200,/employee/home,200,OK,Thread Group 1-1,text,true,,94803,17489,1,1,https://pmstest.fairlyoddtreasures.com/employee/home,77,0,0
+1597946424054,90,/employee/home-0,200,OK,Thread Group 1-1,text,true,,77670,1105,1,1,https://pmstest.fairlyoddtreasures.com/employee/home,77,0,0
+1597946424153,37,/employee/home-1,304,Not Modified,Thread Group 1-1,,true,,173,1193,1,1,https://pmstest.fairlyoddtreasures.com/public/css/smoke.css,0,0,0
+1597946424153,34,/employee/home-2,304,Not Modified,Thread Group 1-1,,true,,175,1194,1,1,https://pmstest.fairlyoddtreasures.com/mobile/js/jquery.js,0,0,0
+1597946424153,37,/employee/home-3,304,Not Modified,Thread Group 1-1,,true,,174,1192,1,1,https://pmstest.fairlyoddtreasures.com/public/js/smoke.js,0,0,0
+1597946424153,37,/employee/home-4,304,Not Modified,Thread Group 1-1,,true,,174,1198,1,1,https://pmstest.fairlyoddtreasures.com/mobile/css/normalize.css,0,0,0
+1597946424153,33,/employee/home-5,304,Not Modified,Thread Group 1-1,,true,,174,1193,1,1,https://pmstest.fairlyoddtreasures.com/mobile/css/main.css,0,0,0
+1597946424153,19,/employee/home-6,200,OK,Thread Group 1-1,text,true,,8130,445,1,1,"https://fonts.googleapis.com/css?family=Open+Sans:700,400,600",17,0,0
+1597946424175,34,/employee/home-7,304,Not Modified,Thread Group 1-1,,true,,174,1206,1,1,https://pmstest.fairlyoddtreasures.com/mobile/js/modernizr-2.8.3.min.js,0,0,0
+1597946424186,34,/employee/home-8,304,Not Modified,Thread Group 1-1,,true,,174,1198,1,1,https://pmstest.fairlyoddtreasures.com/mobile/css/flippopup.css,0,0,0
+1597946424189,33,/employee/home-9,304,Not Modified,Thread Group 1-1,,true,,173,1198,1,1,https://pmstest.fairlyoddtreasures.com/public/images/userPic.png,0,0,0
+1597946424191,33,/employee/home-10,304,Not Modified,Thread Group 1-1,,true,,174,1197,1,1,https://pmstest.fairlyoddtreasures.com/public/js/ajaxupload.js,0,0,0
+1597946424190,34,/employee/home-11,304,Not Modified,Thread Group 1-1,,true,,174,1198,1,1,https://pmstest.fairlyoddtreasures.com/public/js/jquery.form.js,0,0,0
+1597946424191,36,/employee/home-12,200,OK,Thread Group 1-1,text,true,,6595,1127,1,1,https://pmstest.fairlyoddtreasures.com/public/js/home.js?v=0.0.11597946424,36,0,0
+1597946424211,7,/employee/home-13,304,Not Modified,Thread Group 1-1,,true,,322,449,1,1,https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js,0,0,0
+1597946424219,34,/employee/home-14,304,Not Modified,Thread Group 1-1,,true,,174,1203,1,1,https://pmstest.fairlyoddtreasures.com/mobile/js/jquery.flippopup.js,0,0,0
+1597946424221,33,/employee/home-15,304,Not Modified,Thread Group 1-1,,true,,173,1193,1,1,https://pmstest.fairlyoddtreasures.com/mobile/js/plugins.js,0,0,0
+1597946424050,200,Test Comment,,"Number of samples in transaction : 2, number of failing samples : 1",Thread Group 1-1,,false,,96588,17489,1,1,null,77,6,0
+1597946424257,0,/employee/task_change_location,Non HTTP response code: java.lang.NumberFormatException,"Non HTTP response message: For input string: ""12045:""",Thread Group 1-1,text,false,,1785,0,1,1,https://pmstest.fairlyoddtreasures.com/employee/task_change_location,0,0,0
+1597946424259,0,/employee/task_change_location,Non HTTP response code: java.lang.NumberFormatException,"Non HTTP response message: For input string: ""12045:""",Thread Group 1-1,text,false,,1785,0,1,1,https://pmstest.fairlyoddtreasures.com/employee/task_change_location,0,0,0
+1597946424260,0,/employee/task_completed,Non HTTP response code: java.lang.NumberFormatException,"Non HTTP response message: For input string: ""12045:""",Thread Group 1-1,text,false,,1785,0,1,1,https://pmstest.fairlyoddtreasures.com/employee/task_completed,0,0,0
+1597946424262,193,/employee/home,200,OK,Thread Group 1-1,text,true,,88382,17571,1,1,https://pmstest.fairlyoddtreasures.com/employee/home,72,0,0
+1597946424262,85,/employee/home-0,200,OK,Thread Group 1-1,text,true,,77670,1105,1,1,https://pmstest.fairlyoddtreasures.com/employee/home,72,0,0
+1597946424354,34,/employee/home-1,304,Not Modified,Thread Group 1-1,,true,,173,1193,1,1,https://pmstest.fairlyoddtreasures.com/public/css/smoke.css,0,0,0
+1597946424354,34,/employee/home-2,304,Not Modified,Thread Group 1-1,,true,,175,1194,1,1,https://pmstest.fairlyoddtreasures.com/mobile/js/jquery.js,0,0,0
+1597946424353,34,/employee/home-3,304,Not Modified,Thread Group 1-1,,true,,174,1192,1,1,https://pmstest.fairlyoddtreasures.com/public/js/smoke.js,0,0,0
+1597946424354,34,/employee/home-4,304,Not Modified,Thread Group 1-1,,true,,174,1198,1,1,https://pmstest.fairlyoddtreasures.com/mobile/css/normalize.css,0,0,0
+1597946424354,34,/employee/home-5,304,Not Modified,Thread Group 1-1,,true,,174,1193,1,1,https://pmstest.fairlyoddtreasures.com/mobile/css/main.css,0,0,0
+1597946424353,19,/employee/home-6,200,OK,Thread Group 1-1,text,true,,8130,445,1,1,"https://fonts.googleapis.com/css?family=Open+Sans:700,400,600",16,0,0
+1597946424373,34,/employee/home-7,304,Not Modified,Thread Group 1-1,,true,,174,1206,1,1,https://pmstest.fairlyoddtreasures.com/mobile/js/modernizr-2.8.3.min.js,0,0,0
+1597946424388,33,/employee/home-8,304,Not Modified,Thread Group 1-1,,true,,174,1198,1,1,https://pmstest.fairlyoddtreasures.com/mobile/css/flippopup.css,0,0,0
+1597946424388,34,/employee/home-9,304,Not Modified,Thread Group 1-1,,true,,173,1198,1,1,https://pmstest.fairlyoddtreasures.com/public/images/userPic.png,0,0,0
+1597946424389,34,/employee/home-10,304,Not Modified,Thread Group 1-1,,true,,174,1197,1,1,https://pmstest.fairlyoddtreasures.com/public/js/ajaxupload.js,0,0,0
+1597946424389,33,/employee/home-11,304,Not Modified,Thread Group 1-1,,true,,174,1198,1,1,https://pmstest.fairlyoddtreasures.com/public/js/jquery.form.js,0,0,0
+1597946424390,33,/employee/home-12,304,Not Modified,Thread Group 1-1,,true,,174,1209,1,1,https://pmstest.fairlyoddtreasures.com/public/js/home.js?v=0.0.11597946424,0,0,0
+1597946424409,8,/employee/home-13,304,Not Modified,Thread Group 1-1,,true,,322,449,1,1,https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js,0,0,0
+1597946424417,35,/employee/home-14,304,Not Modified,Thread Group 1-1,,true,,174,1203,1,1,https://pmstest.fairlyoddtreasures.com/mobile/js/jquery.flippopup.js,0,0,0
+1597946424422,33,/employee/home-15,304,Not Modified,Thread Group 1-1,,true,,173,1193,1,1,https://pmstest.fairlyoddtreasures.com/mobile/js/plugins.js,0,0,0
+1597946424458,1846,/employee/start_task,200,OK,Thread Group 1-1,text,true,,425,1114,1,1,https://pmstest.fairlyoddtreasures.com/employee/start_task,1846,0,0
+1597946438917,224,/employee/home,200,OK,Thread Group 1-1,text,true,,94803,17489,1,1,https://pmstest.fairlyoddtreasures.com/employee/home,87,0,0
+1597946438917,101,/employee/home-0,200,OK,Thread Group 1-1,text,true,,77670,1105,1,1,https://pmstest.fairlyoddtreasures.com/employee/home,87,0,0
+1597946439025,64,/employee/home-1,304,Not Modified,Thread Group 1-1,,true,,173,1193,1,1,https://pmstest.fairlyoddtreasures.com/public/css/smoke.css,0,0,0
+1597946439025,64,/employee/home-2,304,Not Modified,Thread Group 1-1,,true,,175,1194,1,1,https://pmstest.fairlyoddtreasures.com/mobile/js/jquery.js,0,0,0
+1597946439026,47,/employee/home-3,304,Not Modified,Thread Group 1-1,,true,,174,1192,1,1,https://pmstest.fairlyoddtreasures.com/public/js/smoke.js,0,0,0
+1597946439025,64,/employee/home-4,304,Not Modified,Thread Group 1-1,,true,,174,1198,1,1,https://pmstest.fairlyoddtreasures.com/mobile/css/normalize.css,0,0,0
+1597946439025,34,/employee/home-5,304,Not Modified,Thread Group 1-1,,true,,174,1193,1,1,https://pmstest.fairlyoddtreasures.com/mobile/css/main.css,0,0,0
+1597946439025,44,/employee/home-6,200,OK,Thread Group 1-1,text,true,,8130,445,1,1,"https://fonts.googleapis.com/css?family=Open+Sans:700,400,600",42,0,0
+1597946439060,33,/employee/home-7,304,Not Modified,Thread Group 1-1,,true,,174,1206,1,1,https://pmstest.fairlyoddtreasures.com/mobile/js/modernizr-2.8.3.min.js,0,0,0
+1597946439072,65,/employee/home-8,304,Not Modified,Thread Group 1-1,,true,,174,1198,1,1,https://pmstest.fairlyoddtreasures.com/mobile/css/flippopup.css,0,0,0
+1597946439074,32,/employee/home-9,304,Not Modified,Thread Group 1-1,,true,,173,1198,1,1,https://pmstest.fairlyoddtreasures.com/public/images/userPic.png,0,0,0
+1597946439090,33,/employee/home-10,304,Not Modified,Thread Group 1-1,,true,,174,1197,1,1,https://pmstest.fairlyoddtreasures.com/public/js/ajaxupload.js,0,0,0
+1597946439090,33,/employee/home-11,304,Not Modified,Thread Group 1-1,,true,,174,1198,1,1,https://pmstest.fairlyoddtreasures.com/public/js/jquery.form.js,0,0,0
+1597946439090,35,/employee/home-12,200,OK,Thread Group 1-1,text,true,,6595,1127,1,1,https://pmstest.fairlyoddtreasures.com/public/js/home.js?v=0.0.11597946438,35,0,0
+1597946439093,12,/employee/home-13,304,Not Modified,Thread Group 1-1,,true,,322,449,1,1,https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js,0,0,0
+1597946439106,33,/employee/home-14,304,Not Modified,Thread Group 1-1,,true,,174,1203,1,1,https://pmstest.fairlyoddtreasures.com/mobile/js/jquery.flippopup.js,0,0,0
+1597946439107,34,/employee/home-15,304,Not Modified,Thread Group 1-1,,true,,173,1193,1,1,https://pmstest.fairlyoddtreasures.com/mobile/js/plugins.js,0,0,0
+1597946424256,2263,Test Complete Task,,"Number of samples in transaction : 6, number of failing samples : 3",Thread Group 1-1,,false,,188965,36174,1,1,null,2005,12624,0
+1597946439143,156,/employee/logout,200,"Embedded resource download error:https://pmstest.fairlyoddtreasures.com/mobile/ico/favicon.png code:404 message:Not Found, ",Thread Group 1-1,text,false,,17530,10425,1,1,https://pmstest.fairlyoddtreasures.com/,39,0,0
+1597946439143,39,/employee/logout-0,302,Moved Temporarily,Thread Group 1-1,text,true,,2009,1107,1,1,https://pmstest.fairlyoddtreasures.com/employee/logout,39,0,0
+1597946439183,44,/employee/logout-1,200,OK,Thread Group 1-1,text,true,,12883,947,1,1,https://pmstest.fairlyoddtreasures.com/,44,0,0
+1597946439231,34,/employee/logout-2,304,Not Modified,Thread Group 1-1,,true,,175,1054,1,1,https://pmstest.fairlyoddtreasures.com/mobile/css/bootstrap.css,0,0,0
+1597946439231,34,/employee/logout-3,304,Not Modified,Thread Group 1-1,,true,,174,1064,1,1,https://pmstest.fairlyoddtreasures.com/mobile/css/bootstrap-responsive.css,0,0,0
+1597946439231,34,/employee/logout-4,304,Not Modified,Thread Group 1-1,,true,,173,1048,1,1,https://pmstest.fairlyoddtreasures.com/public/css/smoke.css,0,0,0
+1597946439233,35,/employee/logout-5,404,Not Found,Thread Group 1-1,text,false,,1417,969,1,1,https://pmstest.fairlyoddtreasures.com/mobile/ico/favicon.png,35,0,0
+1597946439231,34,/employee/logout-6,304,Not Modified,Thread Group 1-1,,true,,175,1049,1,1,https://pmstest.fairlyoddtreasures.com/mobile/js/jquery.js,0,0,0
+1597946439231,34,/employee/logout-7,304,Not Modified,Thread Group 1-1,,true,,174,1047,1,1,https://pmstest.fairlyoddtreasures.com/public/js/smoke.js,0,0,0
+1597946439265,34,/employee/logout-8,304,Not Modified,Thread Group 1-1,,true,,175,1072,1,1,https://pmstest.fairlyoddtreasures.com/pms_content/js/vendor/jquery-1.11.1.min.js,0,0,0
+1597946439265,34,/employee/logout-9,304,Not Modified,Thread Group 1-1,,true,,175,1068,1,1,https://pmstest.fairlyoddtreasures.com/pms_content/js/vendor/jquery-ui.min.js,0,0,0
+1597946439142,156,Test Logout Employee,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-1,,false,,17530,10425,1,1,null,39,2,0
+1597946439319,232,JSR223 Sampler,500,"javax.script.ScriptException: java.lang.NumberFormatException: For input string: ""12045:""",tearDown Thread Group 1-1,text,false,,0,0,1,1,null,0,0,0
