@@ -7,9 +7,9 @@ if(file_exists($fileName))
 {
     $date       = $currentDate;
     $server     = "DEVELOPMENT";
-    $status     = "Complete";
+    $status     = "OK";
     $type       = "Regular";
-    $requestUrl = "https://hook.integromat.com/54u8xjckpokitid88ss5xm6qczu71506";
+    $requestUrl = "https://hook.integromat.com/lpzfj2npx1mqy6yck0nzv9j9isjepd1b";
     $url        = "https://fottest.github.io/pms/88f8adf2530eba177361d604a43acf6d32bb2d10/".$currentDate."/index.html";
 
     $data = array();
@@ -34,7 +34,7 @@ if(file_exists($fileName))
     $errCount = count($errors);
     if($errCount  > 0)
     {
-        $status = "Error";
+        $status = "NOT OK";
     }
 
     // Prepare data
