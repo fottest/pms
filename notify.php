@@ -39,13 +39,13 @@ if(file_exists($fileName))
 
     // Prepare data
     $formData = array(
-        'date'      => $date,
-        'url'       => $url, 
-        'status'    => $status,
-        'server'    => $server,
-        'type'      => $type,
-        'err_count' => $errCount,
-        'errors'    => $errors
+        'date'          => $date,
+        'url'           => $url, 
+        'status'        => $status,
+        'server'        => $server,
+        'type'          => $type,
+        'error_count'   => $errCount,
+        'errors'        => $errors
     );
 
     sendData($formData, $requestUrl);
