@@ -12,30 +12,26 @@ if(file_exists($fileName))
     $requestUrl = "https://hook.integromat.com/lpzfj2npx1mqy6yck0nzv9j9isjepd1b";
     $url        = "https://fottest.github.io/pms/88f8adf2530eba177361d604a43acf6d32bb2d10/".$currentDate."/";
 
-    $data = array();
-    $errors = array();
+    $data     = array();
+    $errors   = array();
+    $warnings = array();
     $errCount = 0;
+    $warnCount = 0;
 
     // Extract csv content
     $data = csvExtractor($fileName);
 
-    foreach($data as $key => $value)
-    {
-        if($value['success'] == 'false' && $value['URL'] !== 'null')
-        {
-            array_push($errors, (object)[
-                "label"      => $value['label'],
-                "error_code" => $value['responseCode'],
-                "url"        => $value['URL']
-            ]);
-        };
-    }
-    
+    // Check errors
+    $errors = getError($data);    
     $errCount = count($errors);
     if($errCount  > 0)
     {
         $status = "NOT OK";
     }
+
+    // Check warning
+    $warnings = getWarning($data);
+    $warnCount = count($warnings);
 
     // Prepare data
     $formData = array(
@@ -45,7 +41,9 @@ if(file_exists($fileName))
         'server'        => $server,
         'type'          => $type,
         'error_count'   => $errCount,
-        'errors'        => $errors
+        'errors'        => $errors,
+        'warning_count' => $warnCount,
+        'warnings'      => $warnings,
     );
 
     sendData($formData, $requestUrl);
@@ -101,4 +99,73 @@ function csvExtractor($file)
     array_shift($csv);
 
     return $csv;
+}
+
+/*
+|--------------------------------------------------------------------------
+| getError
+|--------------------------------------------------------------------------
+|
+| Description   : This function will get all
+|               : request error
+| Parameters    : $data
+| Return Value  : error array
+| References    :
+|--------------------------------------------------------------------------
+*/
+function getError($data)
+{
+    $errors = array();
+
+    foreach($data as $key => $value)
+    {
+        if($value['success'] == 'false' && $value['URL'] !== 'null')
+        {
+            array_push($errors, (object)[
+                "label"      => $value['label'],
+                "error_code" => $value['responseCode'],
+                "url"        => $value['URL']
+            ]);
+        };
+    }
+    return $errors;
+}
+
+/*
+|--------------------------------------------------------------------------
+| getWarning
+|--------------------------------------------------------------------------
+|
+| Description   : This function will get all
+|               : request warning that goes beyond time limit
+| Parameters    : $data
+| Return Value  : warning array
+| References    :
+|--------------------------------------------------------------------------
+*/
+
+function getWarning($data)
+{
+    $warnings = array();
+
+    foreach($data as $key => $value)
+    {
+        if($value['label'] == "Test Archive"         && $value['elapsed'] > 150 
+        || $value['label'] == "Test Comment"         && $value['elapsed'] > 450
+        || $value['label'] == "Test Complete Task"   && $value['elapsed'] > 3000
+        || $value['label'] == "Test Create Task"     && $value['elapsed'] > 5000
+        || $value['label'] == "Test Edit Task"       && $value['elapsed'] > 2000
+        || $value['label'] == "Test Login Board"     && $value['elapsed'] > 10000
+        || $value['label'] == "Test Login Employee"  && $value['elapsed'] > 700
+        || $value['label'] == "Test Logout Board"    && $value['elapsed'] > 200
+        || $value['label'] == "Test Logout Employee" && $value['elapsed'] > 200)
+        {
+            array_push($warnings, (object)[
+                "label"      => $value['label'],
+                "elapsed"    => $value['elapsed'],
+            ]);
+        }
+    }
+
+    return $warnings;
 }
