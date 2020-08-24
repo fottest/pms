@@ -10,7 +10,7 @@ if(file_exists($fileName))
     $status     = "OK";
     $type       = "Regular";
     $requestUrl = "https://hook.integromat.com/lpzfj2npx1mqy6yck0nzv9j9isjepd1b";
-    $url        = "https://fottest.github.io/pms/88f8adf2530eba177361d604a43acf6d32bb2d10/".$currentDate."/index.html";
+    $url        = "https://fottest.github.io/pms/88f8adf2530eba177361d604a43acf6d32bb2d10/".$currentDate."/";
 
     $data = array();
     $errors = array();
